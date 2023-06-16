@@ -7,7 +7,7 @@ body {
   }
   
   header {
-    background-color: #333;
+    background-color: black;
     color: #fff;
     padding: 20px;
   }
@@ -36,7 +36,7 @@ body {
   }
   
   footer {
-    background-color: #333;
+    background-color: black;
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -48,10 +48,11 @@ body {
     height: 30vh;
     /*width: 800px; */
     margin: auto;
-    background-color: #475569d0;
+    background-color: #213363;
     border-radius: 1rem;
     padding: 1rem;
     text-align:center;
+    font-size: 25px;
     
     
 }
@@ -63,6 +64,7 @@ body {
     padding-left: 1rem;
     padding-right: 1rem;
     max-width: 600px;
+    font-size: 25px;
 
 }
 
@@ -97,10 +99,30 @@ body {
     height: 30vh;
    
     margin: auto;
-    background-color: 	#808080d0;
+    background-color:#22A699;
     border-radius: 1rem;
     text-align: center;
     padding: 1rem;
-    
+    font-size: 25px;
+  
 
+}
+
+.header .link{
+  margin-top: 0rem;
+}
+
+a{
+  padding: 2rem;
+  color: white;
+}
+
+h1{
+  font-size: 35px;
+}
+
+.name{
+  text-align: center;
+  color: #4F709C ;
+  font-size: 4rem ;
 }
